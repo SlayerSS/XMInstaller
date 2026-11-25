@@ -7,3 +7,4 @@ __pycache__/
 *.cfg
 installer/publish/
 installer/publish-light/
+xmtool/
