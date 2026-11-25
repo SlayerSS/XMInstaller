@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>XMInstaller</AssemblyName>
+    <RootNamespace>XMInstaller</RootNamespace>
+    <Product>XM установщик</Product>
+    <AssemblyTitle>XM установщик</AssemblyTitle>
+    <Company>Slayer NSK</Company>
+    <Authors>Slayer NSK</Authors>
+    <Copyright>Slayer NSK</Copyright>
+    <Description>Программа установщика регистраторов. Автор: Slayer NSK</Description>
+    <Version>1.0.0</Version>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(RuntimeIdentifier)' != ''">
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <DebuggerSupport>false</DebuggerSupport>
+    <EventSourceSupport>false</EventSourceSupport>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,9 @@
+bin/
+obj/
+*.user
+*.pdb
+__pycache__/
+*.pyc
+*.cfg
+installer/publish/
+installer/publish-light/
